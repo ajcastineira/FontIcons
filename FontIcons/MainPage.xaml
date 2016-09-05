@@ -5,9 +5,49 @@
     xmlns:local="using:FontIcons"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10" >
+
+            <TextBlock Text="Segoe MDL2 Assets" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+            <StackPanel>
+                <TextBlock Text="Using TextBlock" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <TextBlock FontSize="36" Text="&#xEB52; &#xEB51;  &#xEB68;  &#xEC3B;  &#xEC40; &#xEC41;" 
+                           FontFamily="Segoe MDL2 Assets"
+                       />
+            </StackPanel>
+            <StackPanel >
+                <TextBlock Text="Using FontIcon" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <FontIcon Glyph="&#xEB52; &#xEB51;  &#xEB68;  &#xEC3B;  &#xEC40; &#xEC41;" 
+                          FontFamily="Segoe MDL2 Assets"
+                          HorizontalAlignment="Left" />
+            </StackPanel>
+
+            <StackPanel >
+                <TextBlock Text="Using SymbolIcon" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <SymbolIcon Symbol="Favorite" HorizontalAlignment="Left" />
+                <SymbolIcon Symbol="Camera" HorizontalAlignment="Left" />
+                <SymbolIcon Symbol="Mail" HorizontalAlignment="Left" />
+
+            </StackPanel>
+
+            <TextBlock Text="Segoe UI Symbols" 
+                       Style="{ThemeResource SubheaderTextBlockStyle}"/>
+            <StackPanel >
+                <TextBlock Text="Using TextBlock" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <TextBlock Text="&#xE200; &#xE1D6; &#xE181; &#xE203; &#xE204; &#xE205; &#xE1D0;"
+                           FontFamily="Segoe UI Symbol"
+                       />
+            </StackPanel>
+            <StackPanel >
+                <TextBlock Text="Using FontIcon" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <FontIcon Glyph="&#xE200; &#xE1D6; &#xE181; &#xE203; &#xE204; &#xE205; &#xE1D0;"
+                          FontFamily="Segoe UI Symbol"
+                          HorizontalAlignment="Left" />
+            </StackPanel>
+        </StackPanel>
 
     </Grid>
 </Page>
