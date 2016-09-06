@@ -43,7 +43,7 @@
             </StackPanel>
             <StackPanel >
                 <TextBlock Text="Using FontIcon" Style="{ThemeResource SubtitleTextBlockStyle}"/>
-                <FontIcon Glyph="&#xE200; &#xE1D6; &#xE181; &#xE203; &#xE204; &#xE205; &#xE1D0;"
+                <FontIcon  x:Name="FontIconCS" Glyph="&#xE200; &#xE1D6; &#xE181; &#xE203; &#xE204; &#xE205;"
                           FontFamily="Segoe UI Symbol"
                           HorizontalAlignment="Left" />
             </StackPanel>

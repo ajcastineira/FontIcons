@@ -26,5 +26,10 @@ namespace FontIcons
         {
             this.InitializeComponent();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            FontIconCS.Glyph += "\uE1D0";
+        }
     }
 }
